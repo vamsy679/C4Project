@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   max-height: 5000vh;
-  background: radial-gradient(circle at 50% 40%, #0e0513, #120419, #15031e, #160324, #17022a, #17022f, #160136, #14013c, #120042, #0d0049);
+  background: radial-gradient(circle at 50% 40%, #1c0328, #260238, #15031e, #160324, #17022a, #030105, #160136, #14013c, #120042, #0d0049);
 }
 
 .App-header {

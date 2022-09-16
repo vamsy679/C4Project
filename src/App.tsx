@@ -235,7 +235,7 @@ function App() {
             <ul>
               <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
                 <Phone size={20} />
-                Phone: +46
+                Phone: +46738213030
               </h4>
               <h4 style={{ display: "flex", gap: 10 }}>
                 <Envelope size={20} />
@@ -365,7 +365,7 @@ function App() {
               </h4>
               <h4 style={{ display: "flex", gap: 10 }}>
                 <Envelope size={20} />
-                Email:{" magbo734@student.liu.se"}
+                Email:{"magbo734@student.liu.se"}
               </h4>
             </ul>
           </div>
