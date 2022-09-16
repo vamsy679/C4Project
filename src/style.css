@@ -36,8 +36,8 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 12px 25px -15px rgb(231, 184, 0),
-    0 2px 9px 0 rgba(255, 145, 0, 0.877);
+    box-shadow: 0 12px 25px -15px red,
+    0 2px 4px 0 blue;
 }
 
 .card-image img {
