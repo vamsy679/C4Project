@@ -1,38 +1,99 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  max-height: 5000vh;
+  background: radial-gradient(circle at 50% 40%, #0e0513, #120419, #15031e, #160324, #17022a, #17022f, #160136, #14013c, #120042, #0d0049);
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  line-height: 2;
+  font-family: 'Verdana';
+  font-display: bolder;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vmin);
+  font-weight: bolder;
+  padding: 15px;
+  letter-spacing: 2.2px;
+  font-size: 47px;
+  font-weight: 600;
+  text-shadow: rgb(148, 7, 7) 0 0, blanchedalmond 0 0;
+  transition: text-shadow 190ms;
+  text-shadow: 0px 1px 0px #919191,
+        1px 1px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 1px 1px #919191,
+        1px 3px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 1px 1px #919191,
+        1px 1px 1px #919191,
+    1px 18px 6px rgba(11,11,11,0.4),
+    1px 22px 6px rgba(11,11,11,0.2),
+    1px 25px 35px rgba(11,11,11,0.2),
+    1px 20px 20px rgba(11,16,16,0.4);
+}
+.App-header:hover {
+  text-shadow: red -3px 0, blue 3px 0;
+
+}
+.slogan{
+  font-weight: 600px;
+  font-display: bolder;
+  font-style: italic;
+  font-size: 25px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.about{
+  font-family: 'Verdana';
+  font-display: bolder;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  font-weight: bold;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-size: 47px;
+  font-weight: 600;
+  text-shadow: red 0 0, blanchedalmond 0 0;
+  transition: text-shadow 190ms;
+  text-shadow: 0px 1px 0px #919191,
+        1px 1px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 1px 1px #919191,
+        1px 3px 1px #919191,
+        1px 3.5px 1px #919191,
+        1px 3px 1px #919191,
+        1px 1px 1px #919191,
+        1px 1px 1px #919191,
+    1px 18px 6px rgba(11,11,11,0.4),
+    1px 22px 6px rgba(11,11,11,0.2),
+    1px 25px 35px rgba(11,11,11,0.2),
+    1px 20px 20px rgba(11,16,16,0.4);
 }
+.about-wrapper:hover
+{
+  text-shadow: red -3px 0, blue 3px 0;
+} 
+.cards-wrapper{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-top: 50px;
+}
+footer {
+  color: whitesmoke;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 20px;
+  padding: 7px 10px;
+  background: rgba(233, 233, 233, 0.816);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
