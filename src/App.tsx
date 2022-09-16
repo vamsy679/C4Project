@@ -514,8 +514,8 @@ function App() {
         </div>
       </div>
       <footer>
-        <h5>Last Updated on: 16 September 2022</h5>
-        <h5>Desgined and Developed using ReactJS. By, Vamsy GVS.</h5>
+        <h5>Last Updated on &#9201;: 16 September 2022</h5>
+        <h5>Designed and Developed using ReactJS/CSS. By, Vamsy GVS &#128578;.</h5>
       </footer>
     </div>
   );
