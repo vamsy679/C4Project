@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         RDX Solutions
         <header className="slogan">
-          "Software so good, you have to C4 yourself!"
+          "Software so good, you'll have to C4 yourself!"
         </header>
       </header>
       <div>
