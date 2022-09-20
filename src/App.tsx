@@ -175,7 +175,7 @@ function App() {
               <img src={require("./images/Joel.jpg")} alt="Profile" />
             </div>
             <p className="name">Joel Nilsson</p>
-            <p>Tester</p>
+            <p>Lead Tester</p>
             <ul>
               <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
                 <Phone size={20} />
@@ -249,7 +249,7 @@ function App() {
               <img src={require("./images/Elias.jpg")} alt="Profile" />
             </div>
             <p className="name">Elias Leijonmarck</p>
-            <p>Architect</p>
+            <p>Lead Architect</p>
             <ul>
               <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
                 <Phone size={20} />
@@ -390,24 +390,6 @@ function App() {
 
           <div className="card">
             <div className="card-image">
-              <img src={require("./images/hugo.jpeg")} alt="Profile" />
-            </div>
-            <p className="name">Hugo Björk</p>
-            <p>Developer</p>
-            <ul>
-              <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
-                <Phone size={20} />
-                Phone: +46707232389
-              </h4>
-              <h4 style={{ display: "flex", gap: 10 }}>
-                <Envelope size={20} />
-                Email:{" hugbj806@student.liu.se"}
-              </h4>
-            </ul>
-          </div>
-
-          <div className="card">
-            <div className="card-image">
               <img src={require("./images/vamsy.jpg")} alt="Profile" />
             </div>
             <p className="name">Vamsy GVS</p>
@@ -420,6 +402,24 @@ function App() {
               <h4 style={{ display: "flex", gap: 10 }}>
                 <Envelope size={20} />
                 Email: gonve175@student.liu.se
+              </h4>
+            </ul>
+          </div>
+
+          <div className="card">
+            <div className="card-image">
+              <img src={require("./images/hugo.jpeg")} alt="Profile" />
+            </div>
+            <p className="name">Hugo Björk</p>
+            <p>Developer</p>
+            <ul>
+              <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
+                <Phone size={20} />
+                Phone: +46707232389
+              </h4>
+              <h4 style={{ display: "flex", gap: 10 }}>
+                <Envelope size={20} />
+                Email:{" hugbj806@student.liu.se"}
               </h4>
             </ul>
           </div>
@@ -514,7 +514,7 @@ function App() {
         </div>
       </div>
       <footer>
-        <h5>Last Updated on &#9201;: 16 September 2022</h5>
+        <h5>Last Updated &#9201; on 16 September 2022</h5>
         <h5>Designed and Developed using ReactJS/CSS. By, Vamsy GVS &#128578;.</h5>
       </footer>
     </div>
