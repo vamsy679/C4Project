@@ -372,24 +372,6 @@ function App() {
 
           <div className="card">
             <div className="card-image">
-              <img src={require("./images/JakobB.jpeg")} alt="Profile" />
-            </div>
-            <p className="name">Jakob Berggren</p>
-            <p>Developer</p>
-            <ul>
-              <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
-                <Phone size={20} />
-                Phone: +46739011096
-              </h4>
-              <h4 style={{ display: "flex", gap: 10 }}>
-                <Envelope size={20} />
-                Email:{" jakbe841@student.liu.se"}
-              </h4>
-            </ul>
-          </div>
-
-          <div className="card">
-            <div className="card-image">
               <img src={require("./images/vamsy.jpg")} alt="Profile" />
             </div>
             <p className="name">Vamsy GVS</p>
@@ -402,6 +384,24 @@ function App() {
               <h4 style={{ display: "flex", gap: 10 }}>
                 <Envelope size={20} />
                 Email: gonve175@student.liu.se
+              </h4>
+            </ul>
+          </div>
+
+          <div className="card">
+            <div className="card-image">
+              <img src={require("./images/JakobB.jpeg")} alt="Profile" />
+            </div>
+            <p className="name">Jakob Berggren</p>
+            <p>Developer</p>
+            <ul>
+              <h4 style={{ display: "flex", gap: 10, marginBottom: 10 }}>
+                <Phone size={20} />
+                Phone: +46739011096
+              </h4>
+              <h4 style={{ display: "flex", gap: 10 }}>
+                <Envelope size={20} />
+                Email:{" jakbe841@student.liu.se"}
               </h4>
             </ul>
           </div>
